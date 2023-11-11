@@ -5,7 +5,7 @@ declare module "styled-components" {
     color: {
       mainFont: string;
       background: string;
-      secondayFont: string;
+      secondaryFont: string;
       footer: string;
     };
     typography: {
