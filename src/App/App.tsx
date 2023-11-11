@@ -1,12 +1,15 @@
 import { Route, Routes } from "react-router-dom";
+import AppStyled from "./AppStyled";
 
 const App = (): React.ReactElement => {
   return (
-    <>
-      <Routes>
-        <Route path="/" />
-      </Routes>
-    </>
+    <AppStyled>
+      <div className="main-conatiner">
+        <Routes>
+          <Route path="/" />
+        </Routes>
+      </div>
+    </AppStyled>
   );
 };
 
