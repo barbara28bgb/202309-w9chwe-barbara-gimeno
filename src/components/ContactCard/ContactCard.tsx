@@ -1,4 +1,4 @@
-import { ContactStructure } from "../store/types";
+import { ContactStructure } from "../../store/types";
 import MovieCardStyled from "./ContactCardStyled";
 
 interface ContactCardProps {
