@@ -1,7 +1,10 @@
 import { configureStore, ThunkAction, Action } from "@reduxjs/toolkit";
+import { contactsReducer } from "./feature/contactSlice/contactSlice";
 
 export const store = configureStore({
-  reducer: {},
+  reducer: {
+    contactsState: contactsReducer,
+  },
 });
 
 export type AppDispatch = typeof store.dispatch;
