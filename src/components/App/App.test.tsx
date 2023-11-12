@@ -1,8 +1,8 @@
 import { render, screen } from "@testing-library/react";
-import HomePage from "../pages/HomePage/HomePage";
+import HomePage from "../../pages/HomePage/HomePage";
 import { MemoryRouter } from "react-router-dom";
 import { ThemeProvider } from "styled-components";
-import mainTheme from "../styles/mainTheme";
+import mainTheme from "../../styles/mainTheme";
 import AppStyled from "./AppStyled";
 
 describe("Given an App component", () => {

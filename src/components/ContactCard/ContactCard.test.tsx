@@ -1,10 +1,10 @@
 import { render, screen } from "@testing-library/react";
 import { ThemeProvider } from "styled-components";
-import contactsMock from "../mocks/contactsMock";
-import mainTheme from "../styles/mainTheme";
+import contactsMock from "../../mocks/contactsMock";
+import mainTheme from "../../styles/mainTheme";
 import ContactCard from "./ContactCard";
 import { BrowserRouter } from "react-router-dom";
-import GlobalStyle from "../styles/GlobalStyle";
+import GlobalStyle from "../../styles/GlobalStyle";
 
 describe("Given a ContactCard component", () => {
   describe("When it receives a 'Yastaqui Laguerra'", () => {
