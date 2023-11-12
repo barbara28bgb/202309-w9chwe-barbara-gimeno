@@ -5,6 +5,7 @@ import HomePage from "../pages/HomePage/HomePage";
 const App = (): React.ReactElement => {
   return (
     <AppStyled>
+      <header />
       <main className="main-container">
         <Routes>
           <Route path="/" element={<Navigate to="/home" />} />
