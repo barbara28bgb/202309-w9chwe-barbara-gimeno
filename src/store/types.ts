@@ -6,6 +6,6 @@ export interface ContactStructure {
   image: string;
 }
 
-export interface ContactsStructure {
+export interface ContactsStateStructure {
   contacts: ContactStructure[];
 }
