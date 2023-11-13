@@ -24,7 +24,17 @@ const GlobalStyle = createGlobalStyle`
   li {
     list-style: none;
     padding: 0;
+    margin: 0;    
+    list-style: none;
+    padding: 0;
     margin: 0;
+    display: flex;
+    flex-direction: row;
+    align-content: flex-start;
+    align-items: center;
+    justify-content: space-around;
+    gap: 30px;
+    position: static;
   }
 
   body {

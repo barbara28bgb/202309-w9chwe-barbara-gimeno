@@ -1,12 +1,15 @@
-import React from "react";
 import ContactCard from "../ContactCard/ContactCard";
 import ContactsListStyled from "./ContactsListStyled";
-import contactsMock from "../../mocks/contactsMock";
+import { useAppSelector } from "../../store/hooks";
 
 const ContactsList = (): React.ReactElement => {
+  const contacts = useAppSelector((state) => {
+    return state.contactsState.contacts;
+  });
+
   return (
     <ContactsListStyled>
-      {contactsMock.map((contact) => (
+      {contacts.map((contact) => (
         <li key={contact.id}>
           <ContactCard contact={contact} />
         </li>
