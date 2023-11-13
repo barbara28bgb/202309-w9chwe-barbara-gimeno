@@ -11,6 +11,17 @@ const NavBarStyled = styled.nav`
   position: fixed;
 
   .navigation-bar {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    flex-direction: row;
+    align-content: flex-start;
+    align-items: center;
+    justify-content: space-around;
+    gap: 30px;
+    position: static;
+
     width: 100%;
     display: flex;
     justify-content: space-around;
